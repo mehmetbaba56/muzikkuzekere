@@ -6,21 +6,21 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+API_ID = int(getenv("API_ID", "22540171"))
+API_HASH = getenv("API_HASH", "59b4061ac2e685693d2be537d985cd7a")
+BOT_TOKEN = getenv("BOT_TOKEN", "7251655443:AAFpWVhaRPU-sUOGq4_dziF1dOcfIkhrjTA")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://muzikbaba:muzikbabake@cluster0.wfvoijc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 500))
-LOGGER_ID = int(getenv("LOGGER_ID", ""))
-OWNER_ID = int(getenv("OWNER_ID", ))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002017751874"))
+OWNER_ID = int(getenv("OWNER_ID", 6782067807))
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "",
+    "https://github.com/mehmetbaba56/muzikkuzekere",
 )
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TsgChecker")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/TsgCheckerChat")
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
-STRING1 = getenv("STRING_SESSION", "")
+STRING1 = getenv("STRING_SESSION", "BAAZkCFAgLshMU6xG38uUpmJfzOyphNB1PCbCP759wT69SqVvOF6zhk_86mJRVOFog7S8ogNytFHVAI6LvVYJ4j7F_SpWwZfrqwIGfvSzH6fwhlrVZhoXHH7iLAYTM17498GIZQMj3DNTxWcBuvjYocCEr0t1ugpGHfSS4Z_qFDZdE4Q3MYtCre-heZomVBZpKyK9qaEC2LDer-AVvrI8ImQBRdFC-jR7vcU6htL_tT7WVwiD8x2vTU6aRoECYM68oxWvrxm9sImwhYk_oBbfyRj44DxHfmsvbqmLoA2WU8WTjYLxIW0pCBq-iVvu5phNmVEVqCttpXlGVoSmXlDLeDtAAAAAZQ-JF8A")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
